@@ -1,0 +1,53 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#menu {
+    padding-top: 80px;
+}
+
+button {
+    padding: 6px 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+canvas {
+    background: black;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid white;
+}
+
+#hud {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+footer {
+    text-align: center;
+       color: #aaa;
+    font-size: 12px;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    touch-action: none;
+}
+
